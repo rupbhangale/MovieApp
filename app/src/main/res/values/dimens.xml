@@ -1,0 +1,33 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="v0dp">0dp</dimen>
+    <dimen name="v1dp">1dp</dimen>
+    <dimen name="v2dp">2dp</dimen>
+    <dimen name="v5dp">5dp</dimen>
+    <dimen name="v10dp">10dp</dimen>
+    <dimen name="v15dp">15dp</dimen>
+    <dimen name="v20dp">20dp</dimen>
+    <dimen name="v30dp">30dp</dimen>
+    <dimen name="v40dp">40dp</dimen>
+    <dimen name="v50dp">50dp</dimen>
+    <dimen name="v60dp">60dp</dimen>
+    <dimen name="v70dp">70dp</dimen>
+    <dimen name="v80dp">80dp</dimen>
+    <dimen name="v100dp">100dp</dimen>
+    <dimen name="v130dp">130dp</dimen>
+    <dimen name="v150dp">150dp</dimen>
+    <dimen name="v170dp">170dp</dimen>
+    <dimen name="v180dp">180dp</dimen>
+    <dimen name="v200dp">200dp</dimen>
+    <dimen name="v300dp">300dp</dimen>
+    <dimen name="v400dp">400dp</dimen>
+
+
+    <dimen name="v10sp">10sp</dimen>
+    <dimen name="v13sp">13sp</dimen>
+    <dimen name="v15sp">15sp</dimen>
+    <dimen name="v16sp">16sp</dimen>
+    <dimen name="v20sp">20sp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+</resources>

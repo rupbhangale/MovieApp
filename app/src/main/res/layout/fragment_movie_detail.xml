@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.assignment.movieapp.moviedetails.MovieDetailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_border"
+        android:layout_margin="@dimen/v10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_movie_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/v10dp"
+            android:textColor="@android:color/black"
+            android:text="@string/hello_blank_fragment" />
+
+        <View style="@style/divider"/>
+
+        <TextView
+            android:id="@+id/tv_movie_overview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/v10dp"
+            android:ellipsize="end"
+            android:lines="3"
+            android:maxLines="3"
+            android:textColor="@android:color/black"
+            android:text="@string/hello_blank_fragment" />
+
+        <View style="@style/divider"/>
+
+        <RatingBar
+            android:id="@+id/rb_movie_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/v10dp"
+            android:isIndicator="true"
+            android:progressTint="@color/yellow"
+            android:backgroundTint="@color/gray"
+            android:numStars="5"/>
+
+    </LinearLayout>
+</LinearLayout>
